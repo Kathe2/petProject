@@ -7,6 +7,10 @@
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     
 }
+body{
+    width: 100%;
+    height: 100%;
+}
 .contact{
     display: flex;
     justify-content: space-between;
@@ -175,13 +179,13 @@ h2{
 
 }
 
-.about-section h3{
+.about-section h3, #test h3, .plans-title h3{
     color: #3d6b20;
     font-size: 2em;
     font-weight:900;
 }
 
-.about-section h2{
+.about-section h2, #test h2, .plans-title h2{
     color: #ADC166;
     font-size: 4em;
     font-weight: 700;
@@ -192,6 +196,7 @@ h2{
     font-size: 20px;
     font-weight: 200;
     color: rgb(66, 65, 65);
+    width: 60%;
 }
 
 .about-btn{
@@ -207,3 +212,136 @@ h2{
     background-color: #ADC166;
 }
 
+#test{
+    background-color: rgba(240, 240, 222, 0.877);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    height: 1050px;
+}
+
+
+.coment{
+    display: flex;
+    margin-top: 100px;
+
+    
+}
+.testimonial{
+    height: 700px;
+    width: 900px;
+    background: white;
+    margin: 2%;
+}
+
+.vet{
+    height: 200px;
+    width: 200px;
+    border: 10px solid transparent;
+    outline: 4px solid #3d6b20;
+    transform: translate(40px, -90px);
+}
+
+.mark{
+    width: 90px;
+    transform: translate(450px, 40px);
+}
+
+.stars{
+    transform: translate(20px, -50px);
+}
+
+.testimonial p{
+    width: 90%;
+    margin-left: 3%;
+    font-size: 30px;
+
+}
+
+.testimonial h4{
+    text-align: right;
+    margin-right: 8%;
+}
+
+#plan{
+    display: flex;
+    height: 1500px;
+}
+
+.card{border: 5px solid #3d6b20;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    width: 600px;
+    height: 1090px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
+}
+
+.card:hover{
+    border: 5px solid #ADC166;
+    width: 700px;
+    height: 1100px;
+    box-shadow: 3px 5px 4px rgba(56, 54, 54, 0.651);
+
+}
+
+.card-header{
+    height: 10%;
+    width: 100%;
+
+}
+
+.card-header h3{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 10px;
+    color: #ADC166;
+}
+
+.card-body h1{
+    font-size: 6em;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#pric{
+    color: #3d6b20;
+}
+
+.card-body ul{
+    margin: 50px auto;
+}
+
+.card-body li{
+    margin-top: 10px;
+    font-size: 25px;
+    list-style: disc;
+}
+
+.card-btn{
+    margin: 75px;
+    height: 7%;
+    width: 60%;
+    font-size: 25px;
+    background-color: #3d6b20;
+    color:white;
+    border: none;
+    box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
+    
+}
+
+.card-btn:hover{
+    background-color: #369C5C;
+    color: black;
+    border: 3px solid #3d6b20;
+    box-shadow: 3px 5px 4px rgba(56, 54, 54, 0.651);
+}
+
+.plans-title{
+    text-align: center;
+    margin-top: 5%;
+} 
