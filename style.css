@@ -32,8 +32,6 @@ nav{
     display: flex;
     padding: 10px;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.596);
-    
-    
 }
 
 ul{
@@ -135,6 +133,7 @@ h2{
 
 #option{
     background-color: rgba(240, 240, 222, 0.877);
+    cursor: pointer;
 }
 
 #option h2{
@@ -226,13 +225,11 @@ h2{
     height: 1050px;
 }
 
-
 .coment{
     display: flex;
-    margin-top: 100px;
-
-    
+    margin-top: 100px; 
 }
+
 .testimonial{
     height: 700px;
     width: 900px;

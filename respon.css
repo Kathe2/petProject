@@ -1,0 +1,146 @@
+@media (max-width:1200px) {
+    header a{
+        font-size: 16px;
+    }
+
+    .firstText{
+        padding-right: 30px;
+    }
+
+    .firstPhoto img{
+        transform: translateY(-100px);
+    }
+
+    .firstText h1{
+        font-size: 6em;
+    }
+
+    .firstText h2{
+        font-size: 1.5em;
+    }
+
+    .firstText > p{
+        font-size: 1em;
+        font-weight: 100;
+        letter-spacing: normal;
+    }
+
+    #about{
+        flex-direction: row-reverse;
+        height: auto;
+        padding: 0;
+    }
+
+    #about img{
+        height: 400px;
+        width: 400px;
+        transform: translate(-110px, 100px);
+
+    }
+    
+    .about-section h3, #test h3, .plans-title h3{
+        font-size: 2em;
+        font-weight:400;
+    }
+
+    .about-section p{
+        font-size: 17px;
+        font-weight: 200;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+
+    .para{
+        display: flex;
+    }
+
+    .about-btn{
+        transform: translateX(190px);
+    }
+
+    #test{
+        height: auto;
+    }
+
+    .testimonial{
+        height: 400px;
+        width: 500px;
+        background: white;
+        margin: 2%;
+    }
+
+    .vet{
+        height: 100px;
+        width: 100px;
+        transform: translate(40px, -50px);
+    }
+
+    .mark{
+        width: 40px;
+        transform: translate(300px, 60px);
+    }
+
+    .stars{
+        transform: translate(20px, -30px);
+    }
+
+    .stars > img{
+        width: 30px;
+    }
+
+    .testimonial p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    #plan{
+        height: auto;
+    }
+
+    .card{
+        margin: 3%;
+        width: 700px;
+        height: 1000px;
+    }
+
+    .card-header{
+        height: 10%;
+        width: 100%;
+    }
+
+    .card-header h3{
+        font-size: 2em;
+        margin-top: 10px;
+    }
+    
+    .card-body h1{
+        font-size: 3em;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .card-body ul{
+        margin: 15px auto;
+    }
+    
+    .card-body li{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .card-btn{
+        margin: 55px;
+        height: 7%;
+        width: 60%;
+        font-size: 25px;
+        background-color: #3d6b20;
+        color:white;
+        border: none;
+        box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
+        
+    }
+
+   
+
+    
+}
