@@ -51,10 +51,14 @@ li{
 li a{
     color: #3d6b20;
     text-decoration: none;
+    cursor: pointer;
 }
 
-li a:hover{
-    color: #369C5C;
+nav li a:hover{
+    color: #369C5c;
+    background-color: #ADC166;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
 }
 
 .yellow{
@@ -266,9 +270,10 @@ h2{
     margin-right: 8%;
 }
 
-#plan{
+.cards{
     display: flex;
-    height: 1500px;
+    align-items: center;
+    justify-content: center;
 }
 
 .card{border: 5px solid #3d6b20;
@@ -276,7 +281,7 @@ h2{
     flex-direction: column;
     margin: 5%;
     width: 600px;
-    height: 1090px;
+    height: 900px;
     justify-content: center;
     align-items: center;
     box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
@@ -285,26 +290,35 @@ h2{
 .card:hover{
     border: 5px solid #ADC166;
     width: 700px;
-    height: 1100px;
+    height: 1000px;
     box-shadow: 3px 5px 4px rgba(56, 54, 54, 0.651);
 
 }
 
-.card-header{
-    height: 10%;
+.cardHeader{
+    height: auto;
     width: 100%;
-
+    padding: 5px;
+    transform: translateY(40px);
 }
 
-.card-header h3{
+.card2{
+    transform: translateY(78px);
+}
+
+.card3{
+    transform: translateY(100px);
+}
+
+.cardHeader h3{
     font-size: 3em;
     text-align: center;
     margin-top: 10px;
     color: #ADC166;
 }
 
-.card-body h1{
-    font-size: 6em;
+.cardBody h1{
+    font-size: 4em;
     margin-top: 100px;
     text-align: center;
 }
@@ -313,17 +327,17 @@ h2{
     color: #3d6b20;
 }
 
-.card-body ul{
+.cardBody ul{
     margin: 50px auto;
 }
 
-.card-body li{
+.cardBody li{
     margin-top: 10px;
     font-size: 25px;
     list-style: disc;
 }
 
-.card-btn{
+.cardbtn{
     margin: 75px;
     height: 7%;
     width: 60%;
@@ -332,17 +346,25 @@ h2{
     color:white;
     border: none;
     box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
-    
+    transform: translateY(-40px);  
 }
 
-.card-btn:hover{
+.cardbtn:hover{
     background-color: #369C5C;
     color: black;
     border: 3px solid #3d6b20;
     box-shadow: 3px 5px 4px rgba(56, 54, 54, 0.651);
 }
 
-.plans-title{
+.carda{
+    transform: translateY(-80px);
+}
+
+.cardb{
+    transform: translateY(-100px);
+}
+
+.plansText{
     text-align: center;
     margin-top: 5%;
 } 

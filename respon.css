@@ -1,4 +1,4 @@
-@media (max-width:1200px) {
+@media (max-width:1900px) {
     header a{
         font-size: 16px;
     }
@@ -99,48 +99,120 @@
 
     .card{
         margin: 3%;
-        width: 700px;
-        height: 1000px;
+        width: 800px;
+        height: 600px;
+        justify-content: start;
     }
 
-    .card-header{
-        height: 10%;
-        width: 100%;
+    .cardHeader{
+        padding: 5px;
+        transform: translateY(0);
     }
 
-    .card-header h3{
+    .cardHeader h3{
         font-size: 2em;
+    }
+    
+    .cardBody h1{
+        font-size: 2.5em;
         margin-top: 10px;
-    }
-    
-    .card-body h1{
-        font-size: 3em;
-        margin-top: 100px;
         text-align: center;
+        padding: 0 5px;
     }
     
-    .card-body ul{
+    .cardBody ul{
         margin: 15px auto;
     }
     
-    .card-body li{
+    .cardBody li{
         margin-top: 5px;
+        font-size: 15px;
+    }
+    
+    .cardbtn{
+        margin: 0;
+        height: 10%;
+        width: 80%;
+        font-size: 20px;
+        transform: translate(20px, 90px);
+    }
+
+    .carda, .cardb{
+        transform: translate(20px, -5px);
+    }
+    .card:hover{
+        width: 900px;
+        height: 610px;
+    }
+    
+    footer{
+        margin-top: 20px;
+        height: 600px;
+    }
+    
+    .footLogo{
+        font-size: 5px;
+    }
+    
+    .footLogo > img{
+        width: 50px;
+        margin: 20px 5px 12px 12px;
+        height: 50px;
+    }
+    
+    .footer-vet p{
+        font-size: 16px;
+    }
+
+    footer h2{
+        font-size: 1.9em;
+    }
+    
+    .other > ul{
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    
+    footer li{
         font-size: 20px;
     }
     
-    .card-btn{
-        margin: 55px;
-        height: 7%;
-        width: 60%;
-        font-size: 25px;
-        background-color: #3d6b20;
-        color:white;
-        border: none;
-        box-shadow: 3px 5px 4px rgba(65, 65, 65, 0.568);
-        
+    .services > ul{
+        padding-left: 20px;
     }
-
-   
-
     
+    .contacts{
+        padding: 40px 13px 13px 0px;
+        text-align: left;
+    }
+    
+    .contacts li img{
+        height: 40px;
+    }
+    
+    .contacts li p{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    .copy{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    
+    .social{
+        margin-right: 15px;
+    }
+    .social img{
+        height: 35px;
+        margin-left: 10px;
+    }
+    
+    
+    .top img{
+        height: 50px;
+        position: fixed;
+        top: 85%;
+        left: 94%;
+    }
 }
