@@ -1,0 +1,83 @@
+@media (max-width:1900px){
+    .logo{
+        max-height: 50px;
+    }
+
+   .contact{
+        font-size: 10px;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    #home{
+        display: block;
+        padding: 30px, auto;
+        height: 500px;
+
+    }
+    .firstPhoto{
+        height: 300px;
+        transform: translate(70px, 70px);
+    }
+
+    .firstText h1{
+        font-size: 3em;
+    }
+    
+    .firstText h2{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .firstText p, .about-section .n{
+        display: none;
+    }
+
+    .firstText{
+        width: 100%;
+
+    }
+
+    #option h2{
+        font-size: 2.5em;
+    }
+
+    #option img{
+        height: 300px;
+    }
+
+    #about{
+        display: block;
+        padding: 0;
+        margin: 0;
+        height:1000px;
+    }
+
+    #about img{
+        height: 300px;
+        width: 300px;
+        transform: translate(-5px, 100px);
+
+    }
+
+    .about-section{
+        transform: translateY(90px);
+        width: 100%;
+    }
+
+    .about-section h2{ 
+        font-size: 2em;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-section p{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
