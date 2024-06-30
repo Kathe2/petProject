@@ -1,4 +1,8 @@
-@media (max-width:1900px){
+@media (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+
     .logo{
         max-height: 50px;
     }
@@ -6,12 +10,12 @@
    .contact{
         font-size: 10px;
     }
-    
-    nav {
+
+    .firstText p, .n, .top img, nav{
         display: none;
     }
 
-    #home{
+    #home{ 
         display: block;
         padding: 30px, auto;
         height: 500px;
@@ -31,10 +35,6 @@
         text-align: center;
     }
 
-    .firstText p, .about-section .n{
-        display: none;
-    }
-
     .firstText{
         width: 100%;
 
@@ -52,7 +52,7 @@
         display: block;
         padding: 0;
         margin: 0;
-        height:1000px;
+        height:910px;
     }
 
     #about img{
@@ -67,7 +67,7 @@
         width: 100%;
     }
 
-    .about-section h2{ 
+    .about-section h2, #test h2{ 
         font-size: 2em;
         font-weight: 400;
         padding: 0;
@@ -77,7 +77,67 @@
     .about-section p{
         width: 100%;
         padding: 0;
-        margin: 0;
+        margin: 10px 0;
     }
     
+    .about-btn{
+        transform: translateX(130px);
+    }
+
+    .testimonial{
+        height: 300px;
+        width: 250px;
+        
+    }
+
+
+    .testimonial p{
+        padding-top: 2px;
+        font-size: 10px;
+    }
+
+    .client{
+        font-size: 15px;
+    }
+
+    .footLogo{
+        font-size: 1.5px;
+    }
+
+    .footLogo > img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-vet p{
+        font-size: 10px;
+    }
+
+    footer h2{
+        font-size: .5em;
+        margin-left: 5%;
+    }
+
+    footer li{
+        font-size: 9px;
+    }
+    
+    .clock > img{
+        height: 20px;
+    }
+
+    .hour > p{
+        font: 8px;
+    }
+
+    .copy{
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    .social img{
+        height: 20px;
+        margin-left: 5px;
+    }
+
 }
